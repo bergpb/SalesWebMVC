@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: echo pwd #dotnet restore ./SalesWebMVC/SalesWebMVC/SalesWebMVC.csproj
+      run: dotnet restore SalesWebMVC/SalesWebMVC.csproj
     - name: Build
-      run: ls -la #dotnet build ./SalesWebMVC/SalesWebMVC/SalesWebMVC.csproj --configuration Release --no-restore
+      run: dotnet build SalesWebMVC/SalesWebMVC.csproj --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
