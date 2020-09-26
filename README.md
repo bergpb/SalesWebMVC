@@ -9,6 +9,6 @@ Rodando migrations no Windows:
     1. update-database - Apply migrations in database
 
 
-Rodando projeto no linux:
+Rodando projeto no Linux:
 
     1. dotnet run restore
