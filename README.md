@@ -1,9 +1,14 @@
 # SalesWebMVC
 Aplicação em .Net Core do curso de C# completo da Udemy
 
-[![Actions Status](https://github.com/bergpb/SalesWebMVC/workflows/.NET%20Core/badge.svg)](https://github.com/bergpb/SalesWebMVC/actions)
+[![Actions Status](https://github.com/bergpb/SalesWebMVC/workflows/dotnet-core-2.1/badge.svg)](https://github.com/bergpb/SalesWebMVC/actions)
 
-Rodando migrations:
+Rodando migrations no Windows:
 
-    Tools > NuGet Package Manager > Package Manager Console  
-    update-database - Apply migrations in database
+    1. Tools > NuGet Package Manager > Package Manager Console  
+    1. update-database - Apply migrations in database
+
+
+Rodando projeto no linux:
+
+    1. dotnet run restore
